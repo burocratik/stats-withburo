@@ -13,9 +13,9 @@ export function Header() {
       <div>
         <Link href="https://umami.is" target="_blank" className={styles.title}>
           <Icon size="lg">
-            <Icons.Logo />
+            <Icons.Buro />
           </Icon>
-          <Text>umami</Text>
+          <Text>Stats with Büro</Text>
         </Link>
       </div>
       <div className={styles.buttons}>
