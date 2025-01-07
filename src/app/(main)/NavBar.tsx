@@ -61,7 +61,7 @@ export function NavBar() {
     <div className={styles.navbar}>
       <div className={styles.logo}>
         <Icon size="lg">
-          <Icons.Logo />
+          <Icons.Buro />
         </Icon>
         <Text>Bürocratik</Text>
       </div>
