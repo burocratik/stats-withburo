@@ -63,7 +63,7 @@ export function NavBar() {
         <Icon size="lg">
           <Icons.Buro />
         </Icon>
-        <Text>Bürocratik</Text>
+        <Text>Stats with Büro</Text>
       </div>
       <div className={styles.links}>
         {links.map(({ url, label }) => {
