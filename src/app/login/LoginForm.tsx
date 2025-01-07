@@ -14,7 +14,7 @@ import useApi from 'components/hooks/useApi';
 import { setUser } from 'store/app';
 import { setClientAuthToken } from 'lib/client';
 import useMessages from 'components/hooks/useMessages';
-import Logo from 'assets/logo.svg';
+import Buro from 'assets/buro.svg';
 import styles from './LoginForm.module.css';
 
 export function LoginForm() {
@@ -39,9 +39,9 @@ export function LoginForm() {
   return (
     <div className={styles.login}>
       <Icon className={styles.icon} size="xl">
-        <Logo />
+        <Buro />
       </Icon>
-      <div className={styles.title}>umami</div>
+      <div className={styles.title}>Stats with Büro</div>
       <Form className={styles.form} onSubmit={handleSubmit} error={getMessage(error)}>
         <FormRow label={formatMessage(labels.username)}>
           <FormInput name="username" rules={{ required: formatMessage(labels.required) }}>
